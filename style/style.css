@@ -1,0 +1,175 @@
+@import url(reset.css);
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 110px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.navigation nav{
+    margin: 0 auto;
+
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.navigation li{
+    padding: 15px;
+}
+.logo img{
+    width: 85px;
+    height: 85px;
+    margin-left: auto 0;
+}
+
+
+
+.icons{
+    width:260px;
+    height: 90px;
+}
+
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+.info-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    height: 90%;
+}
+.left{
+    height: 100%;
+    background-color: #efe4f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left p{
+    padding: 15px;
+    font-size: 5rem;
+    text-align: center;
+
+}
+.left h1{
+    padding: 15px;
+    font-size: 3rem;
+    text-align: center;
+}
+.left h2{
+    padding: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.left .button{
+    display: flex;
+    background-color: black;
+    width: 16rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.right{
+    height: 100%;
+    
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.love-us{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 110px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.love-us ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.love-us img{
+    width: 95px;
+    height: 95px;
+    padding: 15px;
+}
+
+
+
+
+.faves{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.product-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+.product-images img{
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+.blog{
+    width: 100%;
+    height: 300px;
+    background-color:aquamarine;
+}
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+}
